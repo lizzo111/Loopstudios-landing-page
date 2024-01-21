@@ -13,16 +13,16 @@ body {
 }
 
 header {
-  width: 375px;
+  width: 100vw;
   height: 650px;
   background-image: url(./mobile/image-hero.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position-x: center;
 }
 
 header img {
-  width: 100%;
+  width: 144px;
   height: 24px;
 }
 
@@ -30,7 +30,6 @@ header div {
   display: flex;
   padding: 40px 24px 0px 24px;
   gap: 159px;
-  align-items: center;
 }
 
 header h1 {
@@ -44,7 +43,6 @@ header h1 {
   border: 2px solid #fff;
   width: 327px;
   height: 196px;
-  flex-shrink: 0;
   margin: 163px 24px 0px 24px;
 }
 
