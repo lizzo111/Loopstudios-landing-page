@@ -61,6 +61,12 @@ main {
   padding: 96px 24px;
 }
 
+.description-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .description h2 {
   color: #000;
   text-align: center;
